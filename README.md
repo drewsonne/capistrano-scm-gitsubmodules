@@ -16,6 +16,8 @@ Or install it yourself as:
 
 ## Usage
 
+Add `require 'capistrano/gitsubmodules'` to your `Capfile`
+
     set scm: 'gitsubmodules'
 
 This wil make capistrano require the tasks.
